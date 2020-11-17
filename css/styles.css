@@ -17,7 +17,7 @@ ul {
     font-family: Roboto, sans-serif;
     letter-spacing: 0.02em;
 }
-
+/*----------------------------HEADER----------------------------
 /*LOGO*/
 .logoblue {
     color: #2196F3;
@@ -36,7 +36,7 @@ ul {
 
 }
 
-/* SITE NAV */
+/*SITE NAV*/
 .site-nav {
     font-weight: 500;
     font-size: 14px;
@@ -57,7 +57,7 @@ ul {
 
 }
 
-/* AUTH NAV */
+/*AUTH NAV*/
 .auth-nav {
     font-weight: 500;
     font-size: 14px;
@@ -83,7 +83,7 @@ ul {
     text-transform: uppercase;
 }
 
-/* HERO */
+/*---------------------------- HERO---------------------------- */
 .hero {
     background: #2F303A;
     color: #ffffff;
@@ -96,13 +96,13 @@ ul {
     text-align: center;
     letter-spacing: 0.06em;
 }
-/*SECTION 2*/
-.section2-list p {
+/*----------------------------ADVANTAGES----------------------------*/
+.advantages-list p {
     color: var(--secondary-text-color);
     font-size: 14px;
     line-height: 1.71;
 }
-/*ABOUT US */
+/*----------------------------ABOUT US---------------------------- */
 .aboutus-title {
     color: var(--primary-text-color);
     font-weight: bold;
@@ -110,7 +110,7 @@ ul {
     line-height: 1.16;
     text-align: center;
 }
-/*OUR TEAM */
+/*----------------------------OUR TEAM---------------------------- */
 .ourteam {
     background: #F5F4FA;
 }
@@ -123,7 +123,7 @@ ul {
     line-height: 1.18;
     text-align: center;
 }
-/*FOOTER */
+/*----------------------------FOOTER---------------------------- */
 .logo-footer {
     color: #ffffff;
     font-family: Raleway;
@@ -153,7 +153,7 @@ ul {
 .logo-footer:hover {
     color: var(--navigation-but-color);
 }
-/*BUTTON*/
+/*----------------------------BUTTON----------------------------*/
 button {
     font-family: inherit;
 }
@@ -169,8 +169,8 @@ button {
     color: #FFFFFF;
     background: #2196F3;
 }
-/*PORTFOLIO.HTML*/
-/*MAIN*/
+/*----------------------------PORTFOLIO.HTML----------------------------*/
+/*----------------------------MAIN----------------------------*/
 .portfolio p {
     color: var(--secondary-text-color)
 }
