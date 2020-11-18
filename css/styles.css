@@ -18,14 +18,19 @@ ul {
     background-color: white;
     font-family: Roboto, sans-serif;
     letter-spacing: 0.02em;
+       
 }
 /*----------------------------HEADER----------------------------*/
-
+.portfolio-header {
+      border-bottom: 1px solid #ECECEC;
+}
 .header-nav {
     display:flex;
     align-items: center;
     justify-content: space-between;
+  
 }
+
 /*LOGO*/
 .logoblue {
     color: #2196F3;
@@ -198,7 +203,8 @@ margin-right: 0;
 
 /*----------------------------OUR TEAM---------------------------- */
 .ourteam {
-    padding: 94px 215px;
+    padding-top: 94px;
+    padding-bottom: 94px;
     background: #F5F4FA;
 }
 
@@ -268,6 +274,9 @@ margin-right: 0;
 .logo-footer:hover {
     color: var(--navigation-but-color);
 }
+.footer-tel {
+    display: block;
+}
 /*----------------------------BUTTON----------------------------*/
 button {
     font-family: inherit;
@@ -291,9 +300,7 @@ button {
 /*----------------------------MAIN----------------------------*/
 .main-cont {
   padding-top: 94px;
-  padding-bottom: 94px;
-  padding-left: 215px;
-  padding-right: 215px; 
+  padding-bottom: 94px; 
 }
 .portfolio p {
     color: var(--secondary-text-color)
@@ -317,9 +324,7 @@ button {
     color: #ffffff;
     background-color: var(--navigation-but-color)
 }
-.portfolio-title {
-margin-top: 20px;
-}
+
 .buttons-portfolio {
     display: flex;
         align-items: center;
@@ -338,16 +343,12 @@ font-size: 18px;
 line-height: 2;
 letter-spacing: 0.06em;
 color: var(--primary-text-color);
-margin-top: 20px;
-margin-bottom: 4px;
-margin-left: 24px;
-margin-right: 24px;
 }
 .portfolio-whatis {
-    margin: 0 24px 20px 24px;
+   
         font-size: 16px;
         line-height: 1.87;
-        margin-top: 4px;
+  
 }
 .flext-item {
     background: #FFFFFF;
@@ -361,3 +362,7 @@ margin-right: 24px;
 .flext-item:nth-child(3n) {
     margin-right: 0;
 }
+.portfolio-block {
+    padding: 20px 24px;
+}
+
