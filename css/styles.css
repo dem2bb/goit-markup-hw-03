@@ -26,24 +26,16 @@ ul {
        
 }
 /*----------------------------HEADER----------------------------*/
-
-.header-nav:hover,
-.header-nav:focus {
-    color: red;
+.icon-email,
+.icon-tel {
+  fill: var(--secondary-text-color);
 }
 
-
-.prov {
+.icon-block {
     display: inline-block;
     margin-right: 10px;
 }
 
-.icon-email:hover {
-    fill: red;
-}
-.icon-tel:hover {
-    fill: red;
-}
 .icon-email {
     height: 12px;
     width: 16px;
@@ -145,8 +137,9 @@ margin-right: 0;
     ;
 }
 
+
 .auth-nav a:focus,
-.auth-nav a:hover {
+.auth-nav a:hover .icon svg {
     color: var(--navigation-but-color);
 }
 
@@ -395,7 +388,7 @@ button {
     
 }
 .button-portfolio:focus,
-.button-portfolio:hover {
+.button-portfolio:hover{
     color: #ffffff;
     background-color: var(--navigation-but-color)
 }
