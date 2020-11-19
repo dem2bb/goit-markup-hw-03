@@ -136,12 +136,16 @@ margin-right: 0;
     color: var(--secondary-text-color);
     ;
 }
+.auth-nav a:focus .icon-block svg,
+.auth-nav a:hover .icon-block svg {
+    fill: var(--navigation-but-color);
+}
 
 
-.auth-nav a:focus,
+/* .auth-nav a:focus,
 .auth-nav a:hover .icon svg {
     color: var(--navigation-but-color);
-}
+} */
 
 /*COPYCOLOR*/
 .section-title {
