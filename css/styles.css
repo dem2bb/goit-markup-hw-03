@@ -2,6 +2,7 @@
     --primary-text-color: #212121;
     --navigation-but-color: #2196F3;
     --secondary-text-color: #757575;
+    --white-text-color: #ffffff;
 }
 h1, h2, h3 {
     margin: 0;
@@ -45,7 +46,7 @@ ul {
     width: 10px;
 }
 
-.portfol
+
 .portfolio-header {
       border-bottom: 1px solid #ECECEC;
 }
@@ -124,7 +125,7 @@ ul {
     display: flex;
     margin-left: auto;
     text-align: center;
-    align-items: baseline;
+    align-items: center;
 }
 .auth-nav .item {
     margin-right: 50px;
@@ -134,7 +135,8 @@ margin-right: 0;
 }
 .auth-nav a {
     color: var(--secondary-text-color);
-    ;
+    display: flex;
+    align-items: center;
 }
 .auth-nav a:focus .icon-block svg,
 .auth-nav a:hover .icon-block svg,
@@ -144,19 +146,6 @@ margin-right: 0;
     color: var(--navigation-but-color);
 }
 
-
-
-
-/* .auth-nav a:focus .icon-block svg,
-.auth-nav a:hover .icon-block svg {
-    fill: var(--navigation-but-color);
-} */
-
-
-/* .auth-nav a:focus,
-.auth-nav a:hover .icon svg {
-    color: var(--navigation-but-color);
-} */
 
 /*COPYCOLOR*/
 .section-title {
@@ -260,7 +249,7 @@ margin-right: 0;
 
 
 /*----------------------------ABOUT US---------------------------- */
-.aboutus .aboutus-title, .ourteam-title{
+.aboutus .aboutus-title, .ourteam-title, .clients-title {
     color: var(--primary-text-color);
     font-weight: bold;
     font-size: 36px;
@@ -286,7 +275,6 @@ margin-right: 0;
 
 /*----------------------------OUR TEAM---------------------------- */
 
-
 .social-links {
 display: flex;
 justify-content: center;
@@ -297,40 +285,34 @@ align-content: center;
 .icon-link {
     display: flex;
     justify-content: center;
-    position: center;
     align-items: center;
-    outline: 1px solid tomato;
-     border-radius: 50%;
-     height: 44px;
-     width: 44px;
+    border-radius: 50%;
+    height: 44px;
+    width: 44px;
     
 }
- .social-links .insta:hover  svg   {
- fill: white;
- background-color: var(--navigation-but-color);
-
- }
-.icon-link:hover svg {
-    fill: var(--navigation-but-color);
-} 
 .icon-social { 
     fill: var(--secondary-text-color);  
     height: 20px;
     width: 20px;   
-    margin-right: 10px;
 }
-
+.icon-link:hover,
+.icon-link:hover svg,
+.icon-link:focus,
+.icon-link:focus svg
+{
+    background-color: var(--navigation-but-color);
+    fill: var(--white-text-color);
+}
 .ourteam {
     padding-top: 94px;
     padding-bottom: 94px;
     background: #F5F4FA;
 }
-
 .ourteam .ourteam-item {
     margin: 0;
     padding: 0;
     display: flex;
-
 }
 .cards {
     background: #FFFFFF;
@@ -357,6 +339,45 @@ align-content: center;
     text-align: center;
     margin-top: 0;
 }
+
+ /*----------------------------CLIENTS---------------------------- */
+.clients {
+    padding-top: 94px;
+    padding-bottom: 94px;
+}
+
+
+.clients-list {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.clients-link {
+        height: 90px;
+        width: 170px;
+        border: 1px solid #AFB1B8;
+        border-radius: 4px;
+        display: block;
+            display:flex;
+            justify-content: center;
+            align-items: center;
+}
+.clients-item {
+    fill: #AFB1B8;
+;
+}
+.clients-link:hover svg,
+.clients-link:hover,
+.clients-link:focus svg,
+.clients-link:focus {
+    fill: var(--navigation-but-color);
+}
+.clients-link:hover,
+.clients-link:focus {
+    border: 1px solid #2196F3;
+}
+
+
 /*----------------------------FOOTER---------------------------- */
 .logo-footer {
     color: #ffffff;
@@ -394,6 +415,66 @@ align-content: center;
 .footer-tel {
     display: block;
 }
+.join-text {
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: var(--white-text-color);
+    margin-bottom: 20px;
+}
+
+.footer-mainblock {
+    display: flex;
+}
+
+.footer-secondblock {
+    padding-top: 12px;
+    margin-left: 70px;
+}
+
+.icon-footer {
+    height: 20px;
+    width: 20px;
+    fill: #ffffff;
+}
+
+.footer-links {
+    display: flex;
+    justify-content: flex-start;
+    align-content: center;
+    width: 206px;
+}
+
+.footer-link {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    height: 44px;
+    width: 44px;
+    background: rgba(255, 255, 255, 0.1);
+}
+
+.footer-links-item:last-child {
+    margin-right: 0;
+}
+
+.footer-link:hover svg,
+.footer-link:hover,
+.footer-link:focus svg,
+.footer-link:focus {
+    background-color: var(--navigation-but-color);
+}
+
+.footer-links-item {
+    margin-right: 10px;
+}
+
+
+
+
 /*----------------------------BUTTON----------------------------*/
 button {
     font-family: inherit;
