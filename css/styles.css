@@ -291,21 +291,24 @@ margin-right: 0;
 display: flex;
 justify-content: center;
 align-content: center;
+  margin-top: 16px;
+  margin-bottom: 30px;
 }
 .icon-link {
     display: flex;
     justify-content: center;
     position: center;
     width: 44px;
-    margin-top: 16px;
-    margin-bottom: 30px;
     align-items: center;
+    outline: 1px solid tomato;
     
 }
  .social-links .insta:hover  svg   {
  fill: white;
  background-color: var(--navigation-but-color);
  border-radius: 50%;
+ height: 44px;
+ width: 44px;
  }
 .icon-link:hover svg {
     fill: var(--navigation-but-color);
