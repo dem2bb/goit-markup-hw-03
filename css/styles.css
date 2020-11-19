@@ -137,9 +137,20 @@ margin-right: 0;
     ;
 }
 .auth-nav a:focus .icon-block svg,
+.auth-nav a:hover .icon-block svg,
+.auth-nav a:focus,
+.auth-nav a:hover {
+    fill: var(--navigation-but-color);
+    color: var(--navigation-but-color);
+}
+
+
+
+
+/* .auth-nav a:focus .icon-block svg,
 .auth-nav a:hover .icon-block svg {
     fill: var(--navigation-but-color);
-}
+} */
 
 
 /* .auth-nav a:focus,
@@ -274,6 +285,39 @@ margin-right: 0;
 
 
 /*----------------------------OUR TEAM---------------------------- */
+.linkedin,
+.instagram {
+    height: 20px;
+    font-weight: 20px;
+}
+.twitter {
+    height: 16px;
+    width: 20px;
+}
+.facebook {
+    height: 20px;
+    width: 10px;
+}
+.social-links {
+display: flex;
+justify-content: center;
+align-content: center;
+}
+.icon-link {
+    display: flex;
+    justify-content: center;
+    position: center;
+    width: 44px;
+    height: 44px;
+    outline: 1px solid tomato;
+    margin-top: 16px;
+    
+}
+.icon-social { 
+    fill: var(--secondary-text-color);     
+   
+}
+
 .ourteam {
     padding-top: 94px;
     padding-bottom: 94px;
@@ -284,6 +328,7 @@ margin-right: 0;
     margin: 0;
     padding: 0;
     display: flex;
+
 }
 .cards {
     background: #FFFFFF;
@@ -310,7 +355,6 @@ margin-right: 0;
     line-height: 1.18;
     text-align: center;
     margin-top: 0;
-    margin-bottom: 30px;
 }
 /*----------------------------FOOTER---------------------------- */
 .logo-footer {
