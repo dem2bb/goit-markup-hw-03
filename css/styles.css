@@ -298,17 +298,17 @@ align-content: center;
     display: flex;
     justify-content: center;
     position: center;
-    width: 44px;
     align-items: center;
     outline: 1px solid tomato;
+     border-radius: 50%;
+     height: 44px;
+     width: 44px;
     
 }
  .social-links .insta:hover  svg   {
  fill: white;
  background-color: var(--navigation-but-color);
- border-radius: 50%;
- height: 44px;
- width: 44px;
+
  }
 .icon-link:hover svg {
     fill: var(--navigation-but-color);
