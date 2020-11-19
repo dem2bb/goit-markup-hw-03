@@ -285,19 +285,6 @@ margin-right: 0;
 
 
 /*----------------------------OUR TEAM---------------------------- */
-.linkedin,
-.instagram {
-    height: 20px;
-    font-weight: 20px;
-}
-.twitter {
-    height: 16px;
-    width: 20px;
-}
-.facebook {
-    height: 20px;
-    width: 10px;
-}
 .social-links {
 display: flex;
 justify-content: center;
@@ -308,14 +295,19 @@ align-content: center;
     justify-content: center;
     position: center;
     width: 44px;
-    height: 44px;
-    outline: 1px solid tomato;
     margin-top: 16px;
+    margin-bottom: 30px;
+    align-items: center;
     
 }
+.icon-link:hover svg {
+    color: var(--navigation-but-color);
+}
 .icon-social { 
-    fill: var(--secondary-text-color);     
-   
+    fill: var(--secondary-text-color);  
+    height: 20px;
+    width: 20px;   
+    margin-right: 10px;
 }
 
 .ourteam {
@@ -337,7 +329,6 @@ align-content: center;
     0px 2px 1px rgba(0, 0, 0, 0.2);
     border-radius: 0px 0px 4px 4px;
     width: 270px;
-    height: 368px;
     margin-right: 30px;
 }
 .cards:last-child {
