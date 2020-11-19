@@ -285,6 +285,8 @@ margin-right: 0;
 
 
 /*----------------------------OUR TEAM---------------------------- */
+
+
 .social-links {
 display: flex;
 justify-content: center;
@@ -300,9 +302,14 @@ align-content: center;
     align-items: center;
     
 }
+ .social-links .insta:hover  svg   {
+ fill: white;
+ background-color: var(--navigation-but-color);
+ border-radius: 50%;
+ }
 .icon-link:hover svg {
-    color: var(--navigation-but-color);
-}
+    fill: var(--navigation-but-color);
+} 
 .icon-social { 
     fill: var(--secondary-text-color);  
     height: 20px;
